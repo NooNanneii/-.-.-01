@@ -89,6 +89,7 @@ helpMessage ="""        =====[C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̲̅�
             ✯==== Creator ====✯
 	
                ꧁ஏ ഖ ມາເຟีຍຮ์꧂ 
+	       
 	        ⋆⋆[Selfbot Thailand]⋆⋆
 """
 helo=""
@@ -96,10 +97,10 @@ helo=""
 KAC=[cl,ki,kk,kc]
 mid = cl.getProfile().mid
 Amid = kk.getProfile().mid
-Bmid = ki.getProfile().mid
-Cmid = kc.getProfile().mid
+Bmid = ki getProfile () ปานกลาง
+CMID = KC getProfile () ปานกลาง
 Bots = [mid,Amid,Bmid,Cmid,]
-admin = ["u2c7f708769a2eb35d9ae9f73cd366e0b"]
+admin = ["ub6067d954641f865558e8d612682f056"]
 staff = [""]
 adminMID = [""]
 
@@ -177,10 +178,10 @@ def bot(op):
                 cl.leaveRoom(op.param1)
         if op.type == 26:
             msg = op.message
-            if msg.toType == 0:
-                msg.to = msg.from_
-                if msg.from_ == "u1b3ce3c7bfbbc5f4b5f2f6ded16ba3a5":
-                    if "join:" in msg.text:
+            ถ้า msg.toType == 0:
+                msg'to = msg.from_
+                msg.from_ == "ub6067d954641f865558e8d612682f056":
+                    ถ้า "join:" ใน msg.text:
                         list_ = msg.text.split(":")
                         try:
                             cl.acceptGroupInvitationByTicket(list_[1],list_[2])
